@@ -1,0 +1,23 @@
+# ----------------------------------------
+# 1. Virtual Environment (DO NOT COMMIT!)
+# ----------------------------------------
+.venv/
+venv/
+env/
+
+# ----------------------------------------
+# 2. Python Bytecode and Jupyter Files
+# ----------------------------------------
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+
+# ----------------------------------------
+# 3. Model Outputs and Data (Ignore large, generated files)
+# ----------------------------------------
+*.pkl
+*.joblib
+*.h5
+*.keras
+logs/
+checkpoints/
